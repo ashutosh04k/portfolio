@@ -3,9 +3,17 @@ import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg"
 import ScrollAnimation from "react-animate-on-scroll";
+import { useState } from "react";
 
 
 export function Project() {
+  const [showComingSoon, setShowComingSoon] = useState(false);
+
+  const handleClick = (e:any) => {
+    e.preventDefault(); // Prevent default link behavior
+    setShowComingSoon(true); // Show the "Coming Soon" message
+  };
+
   return (
     <Container id="project">
       <h2>My Projects</h2>
@@ -38,27 +46,38 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/ashutosh04k/VoiceTextify" target="_blank" rel="noreferrer">
+                <a href="https://github.com/ashutosh04k/console-frontend-app" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://voice-textify.vercel.app/" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/ashutosh04k/backend-service" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /> </a>
+                <a href="" target="_blank" rel="noreferrer" onClick={handleClick}>
                   <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
             <div className="body">
-              <h3>Textify: AI-Powered Audio to text Converter</h3>
+              <h3>Aisle Essential-Ecommerce Platform</h3>
               <p>
-                Developed an interactive Web App using OpenAI's API Which convert any audio to text and Genrate the Summary out of it and render it in key points.
+              Modernized an intuitive shopping experience on the new e-commerce platform by enabling seamless product
+browsing and checkout functionality resulted in 200 + daily transactions within 2 Quarter of launch.
+• Designed a comprehensive admin panel enabling a single administrator to seamlessly oversee 300+ product
+listings, manage inventory in real-time, and streamline transaction processes for increased operational efficiency.
+• Developed functionality allowing multiple users to browse, select, and purchase products, with a streamlined
+checkout process.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>React JS</li>
-                <li>OpenAi Api</li>
-                <li>Javascript</li>
+                <li>Redux Toolkit</li>
+                <li>MongoDB</li>
+                <li>Node Js</li>
+                <li>Express</li>
               </ul>
             </footer>
           </div>
+          
         </ScrollAnimation>
+        
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -89,6 +108,32 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+                <a href="https://github.com/ashutosh04k/VoiceTextify" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /> </a>
+                <a href="https://voice-textify.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Textify: AI-Powered Audio to text Converter</h3>
+              <p>
+                Developed an interactive Web App using OpenAI's API Which convert any audio to text and Generates the Summary out of it and render it in key points.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React JS</li>
+                <li>OpenAi Api</li>
+                <li>Javascript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
