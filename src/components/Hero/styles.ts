@@ -12,6 +12,19 @@ export const Container = styled.section`
     }
     h1{
       font-size: 7rem;
+      color:yellow;
+background-image: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20231218224644/w.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+    }
+    h1:hover{
+    font-size:7.5rem;
     }
 
     h3{
