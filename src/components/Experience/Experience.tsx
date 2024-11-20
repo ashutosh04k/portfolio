@@ -40,7 +40,9 @@ export function Experience() {
                 </div>
                 <footer>
                   <ul className="tech-list">
-                    <li>React JS with TypeScript</li>
+                    <li>React JS</li>
+                    <li>TypeScript</li>
+                    <li>Javascript</li>
                     <li>API Gateway</li>
                     <li>SCSS</li>
                     <li>Aws CLI</li>

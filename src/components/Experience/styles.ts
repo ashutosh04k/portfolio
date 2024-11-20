@@ -107,6 +107,12 @@ export const Container = styled.section`
             font-size: 1.2rem;
             opacity: 0.8;
           }
+          .tech-list li{
+          border:1px solid #23ce6b;
+          padding:5px;
+          border-radius:10px;
+          color:yellow;
+          }
         }
       }
     }

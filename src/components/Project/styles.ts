@@ -73,6 +73,15 @@ export const Container = styled.section`
           font-size: 1.4rem;
           opacity: 0.6;
         }
+          .tech-list li{
+          border:1px solid #23ce6b;
+          padding:5px;
+          border-radius:10px;
+          color:yellow;
+          }
+          .tech-list li:hover{
+          color:white;
+          }
       }
 
     }
