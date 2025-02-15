@@ -52,7 +52,56 @@ export function Experience() {
             </ScrollAnimation>
           </div>
         </div>
-        {/* Add similar blocks for other projects */}
+        <div className="timeline-item">
+          <div className="timeline-icon"></div>
+          <div className="timeline-content" style={{marginLeft:'4rem'}}>
+            <ScrollAnimation animateIn="flipInX">
+              <div className="project">
+                <header>
+                  <div className="Company-logo">
+
+                  <a href="https://www.100acress.com/" target="_blank" rel="noreferrer">
+                      <img
+                        src="https://100acress-media-bucket.s3.ap-south-1.amazonaws.com/100acre/logo/logo.webp"
+                        alt="Company Logo"
+                        className="logo-image"
+                      />
+                    </a>
+                  </div>
+                  <div className="project-links">
+                    <a href="https://github.com/web100Acress/100acressFront" target="_blank" rel="noreferrer">
+                      {/* <img src={} alt="GitHub Link" /> */}
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      {/* <img src={externalLink} alt="Visit site" /> */}
+                    </a>
+                  </div>
+                </header>
+                <div className="body">
+                  <h3>100acress.com - Front-End Developer / Devops</h3>
+                  <p>
+                  Transformed Figma designs into a fully responsive React.js user interface, elevating user engagement metrics by
+20% through enhanced usability features and seamless interaction design adjustments throughout the application.</p>
+                  <p>Led Front-End Development to increase performance by 30% to improve S.C.O .</p>
+<p>Achieved Deployment to AWS,leveraging EC2 to enhance system reliability to 50% and Scalabitility by 40%
+using CI/CD Pipeline , Git-Hub Actions.</p>
+                </div>
+                <footer>
+                  <ul className="tech-list">
+                    <li>React JS</li>
+                    <li>AWS-EC2</li>
+                    <li>Javascript</li>
+                    <li>API Gateway</li>
+                    <li>TailWind</li>
+                    <li>Aws CLI</li>
+                    <li>Node J.S</li>
+                  </ul>
+                </footer>
+              </div>
+            </ScrollAnimation>
+          </div>
+        </div>
+        
       </div>
     </Container>
   );
