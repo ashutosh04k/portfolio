@@ -18,7 +18,140 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
 
+              <div className="project-links">
+                <a
+                  // href="https://github.com/your-github-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+
+                <a
+                  href="https://admin-dev.mobilityinfotech.com/signup"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+
+            <div className="body">
+              <h3>Mobility Transportation & Fleet Management Platform</h3>
+
+              <p>
+                Developed and maintained enterprise-grade transportation management
+                solutions for employee mobility, shuttle operations, and fleet
+                tracking. Built responsive dashboards, booking workflows, live trip
+                monitoring, driver management, and reporting modules using React.js,
+                Redux, and Material UI. Integrated real-time notifications, GPS
+                tracking, role-based access control, and API-driven data management to
+                streamline transportation operations. Improved application performance
+                through optimized state management, reusable components, and efficient
+                data rendering, delivering a seamless experience across web and mobile
+                devices.
+              </p>
+            </div>
+
+            <footer>
+              <ul className="tech-list">
+                <li>React Js</li>
+                <li>Redux</li>
+                <li>Material UI</li>
+                <li>WebSocket</li>
+                <li>REST APIs</li>
+                <li>Google Maps API</li>
+                <li>Firebase</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/your-github-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+
+                <a
+                  href="http://demo.proxperty.in/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+
+            <div className="body">
+              <h3>ProXperty - Real Estate Management Platform</h3>
+
+              <p>
+                Developed a scalable real estate platform enabling property listing,
+                lead management, and role-based administration for agents and admins.
+                Built responsive and high-performance user interfaces using React.js,
+                Redux, and Material UI. Implemented dynamic property filtering,
+                search, and location-based discovery features to improve user
+                engagement. Integrated REST APIs and optimized application performance
+                through reusable components, code splitting, and efficient state
+                management. Deployed containerized applications using Docker and AWS
+                infrastructure for reliable and scalable delivery.
+              </p>
+            </div>
+
+            <footer>
+              <ul className="tech-list">
+                <li>React Js</li>
+                <li>Redux</li>
+                <li>Material UI</li>
+                <li>Node Js</li>
+                <li>MongoDB</li>
+                <li>Docker</li>
+                <li>AWS</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>

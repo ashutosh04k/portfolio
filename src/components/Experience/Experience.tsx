@@ -101,6 +101,81 @@ using CI/CD Pipeline , Git-Hub Actions.</p>
             </ScrollAnimation>
           </div>
         </div>
+        <div className="timeline-item">
+          <div className="timeline-icon"></div>
+
+          <div className="timeline-content" style={{ marginLeft: "4rem" }}>
+            <ScrollAnimation animateIn="flipInX">
+              <div className="project">
+                <header>
+                  <div className="Company-logo">
+                    <a
+                      href="https://mobilityinfotech.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://admin-dev.mobilityinfotech.com/static/media/logo.a4000330b204f87cc1bd.png"
+                        alt="Mobility Infotech Logo"
+                        className="logo-image"
+                      />
+                    </a>
+                  </div>
+
+                  <div className="project-links">
+                    <a href="" target="_blank" rel="noreferrer">
+                      {/* Internal Project */}
+                    </a>
+                  </div>
+                </header>
+
+                <div className="body">
+                  <h3>Mobility Infotech - Software Engineer (Frontend)</h3>
+
+                  <p>
+                    Developed and maintained enterprise-scale transportation and fleet
+                    management applications using React.js, Redux, and Material UI,
+                    enabling real-time trip monitoring, employee transportation
+                    management, and operational reporting.
+                  </p>
+
+                  <p>
+                    Built scalable and reusable component architectures, dynamic forms,
+                    data tables, and dashboard modules, reducing development effort and
+                    improving maintainability across multiple client projects.
+                  </p>
+
+                  <p>
+                    Integrated REST APIs, Google Maps, Firebase Notifications, and
+                    WebSocket-based real-time updates to enhance user experience,
+                    improve operational visibility, and streamline transportation
+                    workflows.
+                  </p>
+
+                  <p>
+                    Optimized application performance through efficient state
+                    management, code splitting, lazy loading, and virtualization
+                    techniques, resulting in faster page loads and improved user
+                    engagement.
+                  </p>
+                </div>
+
+                <footer>
+                  <ul className="tech-list">
+                    <li>React JS</li>
+                    <li>Redux</li>
+                    <li>TypeScript</li>
+                    <li>Material UI</li>
+                    <li>Firebase</li>
+                    <li>WebSocket</li>
+                    <li>Google Maps API</li>
+                    <li>REST APIs</li>
+                  </ul>
+                </footer>
+              </div>
+            </ScrollAnimation>
+          </div>
+        </div>
         
       </div>
     </Container>

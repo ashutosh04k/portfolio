@@ -9,6 +9,10 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import TailwindIcon from "../../assets/Tailwind.svg";
+import ExpressIcon from "../../assets/express.png";
+import MongoIcon from "../../assets/mongo.png";
+import AwsIcon from "../../assets/aws.png";
+import DockerIcon from "../../assets/docker.png";
 
 export function About() {
   return (
@@ -19,13 +23,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            Hi there! I'm Ashutosh, a FrontEnd developer with a passion for creating custom online experiences. With a skill set including HTML, CSS, JavaScript,Typescript , Redux , Websocket and React JS, I have the tools to bring any website vision to life.
+            Hi there! I'm Ashutosh, a Full Stack Developer with a passion for building scalable, high-performance web applications and seamless digital experiences. With expertise in HTML, CSS, JavaScript, TypeScript, React JS, Redux, WebSockets, Node.js, Express.js, MongoDB, AWS, Docker, and modern development practices, I have the skills to transform ideas into robust and user-friendly solutions.
           </p>
         </ScrollAnimation>
-        <br/>
+
+        <br />
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+            Whether you're looking to develop a new web application, optimize an existing platform, or build a complete end-to-end solution, I'd love to collaborate and help bring your vision to life. Let's create something impactful together!
+          </p>
         </ScrollAnimation>
         <br/>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
@@ -72,6 +79,27 @@ export function About() {
               <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={ExpressIcon} alt="Express" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={MongoIcon} alt="Mongo" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={AwsIcon} alt="Aws" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={DockerIcon} alt="Docker" />
+            </ScrollAnimation>
+          </div>
+          
           
         </div>
       </div>
