@@ -3,16 +3,15 @@ import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg"
 import ScrollAnimation from "react-animate-on-scroll";
-import { useState } from "react";
 
 
 export function Project() {
-  const [showComingSoon, setShowComingSoon] = useState(false);
 
-  const handleClick = (e:any) => {
-    e.preventDefault(); // Prevent default link behavior
-    setShowComingSoon(true); // Show the "Coming Soon" message
-  };
+
+  // const handleClick = (e:any) => {
+  //   e.preventDefault(); // Prevent default link behavior
+  //   // setShowComingSoon(true); // Show the "Coming Soon" message
+  // };
 
   return (
     <Container id="project">
@@ -38,7 +37,7 @@ export function Project() {
 
               <div className="project-links">
                 <a
-                  // href="https://github.com/your-github-link"
+                  href="https://github.com/your-github-link"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -228,9 +227,10 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/ashutosh04k/netflixgpt" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="" target="_blank" rel="noreferrer">
+                {/* <a href="" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
-                </a> </div>
+                </a>  */}
+                </div>
             </header>
             <div className="body">
               <h3>Ai Powered Movie Search Platform</h3>
@@ -252,8 +252,8 @@ export function Project() {
                   <img src={githubIcon} alt="Visit site" /> </a>
                   <a href="https://github.com/ashutosh04k/backend-service" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="" target="_blank" rel="noreferrer" onClick={handleClick}>
-                  <img src={externalLink} alt="Visit site" /></a>
+                {/* <a href="" target="_blank" rel="noreferrer" onClick={handleClick}>
+                  <img src={externalLink} alt="Visit site" /></a> */}
               </div>
             </header>
             <div className="body">
