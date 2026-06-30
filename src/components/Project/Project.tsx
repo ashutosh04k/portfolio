@@ -106,6 +106,75 @@ export function Project() {
 
               <div className="project-links">
                 <a
+                  href="https://www.100acress.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+
+            <div className="body">
+              <h3>100Acress - Real Estate Property Portal</h3>
+
+              <p>
+                Developed and maintained the frontend of a large-scale real estate
+                platform using React.js, delivering responsive and user-friendly
+                experiences for property buyers, sellers, and agents. Converted Figma
+                designs into production-ready interfaces while ensuring cross-browser
+                compatibility and mobile responsiveness.
+              </p>
+
+              <p>
+                Implemented property search, listing pages, dynamic filters, and
+                location-based property discovery features. Integrated REST APIs and
+                optimized frontend performance through component reusability, lazy
+                loading, and efficient state management.
+              </p>
+
+              <p>
+                Contributed to deployment and infrastructure activities using AWS EC2,
+                Docker, Nginx, and CI/CD pipelines with GitHub Actions, improving
+                application reliability and release efficiency.
+              </p>
+            </div>
+
+            <footer>
+              <ul className="tech-list">
+                <li>React Js</li>
+                <li>JavaScript</li>
+                <li>Redux</li>
+                <li>Tailwind CSS</li>
+                <li>REST APIs</li>
+                <li>AWS EC2</li>
+                <li>Docker</li>
+                <li>GitHub Actions</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+
+              <div className="project-links">
+                <a
                   href="https://github.com/your-github-link"
                   target="_blank"
                   rel="noreferrer"

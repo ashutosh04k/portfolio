@@ -26,9 +26,6 @@ export function Experience() {
                     <a href="https://github.com/ashutosh04k/netflixgpt" target="_blank" rel="noreferrer">
                       {/* <img src={} alt="GitHub Link" /> */}
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      {/* <img src={externalLink} alt="Visit site" /> */}
-                    </a>
                   </div>
                 </header>
                 <div className="body">
@@ -71,9 +68,6 @@ export function Experience() {
                   <div className="project-links">
                     <a href="https://github.com/web100Acress/100acressFront" target="_blank" rel="noreferrer">
                       {/* <img src={} alt="GitHub Link" /> */}
-                    </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      {/* <img src={externalLink} alt="Visit site" /> */}
                     </a>
                   </div>
                 </header>
@@ -123,9 +117,6 @@ using CI/CD Pipeline , Git-Hub Actions.</p>
                   </div>
 
                   <div className="project-links">
-                    <a href="" target="_blank" rel="noreferrer">
-                      {/* Internal Project */}
-                    </a>
                   </div>
                 </header>
 

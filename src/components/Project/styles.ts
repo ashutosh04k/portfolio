@@ -15,7 +15,8 @@ export const Container = styled.section`
     grid-template-rows: auto;
     gap: 2rem;
     padding: 1rem;
-    overflow: hidden;
+    overflow-y: auto;
+    
 
     .project{
       padding: 2rem 1.8rem;
